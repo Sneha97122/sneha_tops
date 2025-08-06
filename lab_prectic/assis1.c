@@ -50,7 +50,7 @@ void order(){
 			total_amount=amount;
 			break;
 		default:
-			printf("\n wrong choise");
+			printf("\n wrong choise \n");
 			amount=0;
 	}
 	printf("\n amount of this item is=%d\n",amount);
