@@ -15,36 +15,36 @@ void order(){
 	scanf(" %c",&choise);
 	switch(choise){
 		case'1':
-			printf("\n you choiss pizza");
+			printf("\n you choiss pizza\n");
 			printf("\nenter the quntity of pizza=");
 			scanf(" %d",&quntity);
 			amount=quntity*180;
 			total_amount=amount;
 			break;
 		case'2':
-			printf("\n you choiss burger");
-			printf("\nenter the quntity of pizza=");
+			printf("\n you choiss burger\n");
+			printf("\nenter the quntity of burger=");
 			scanf(" %d",&quntity);
 			amount=quntity*100;
 			total_amount=amount;
 			break;
 		case'3':
-			printf("\n you choiss pasta");
-			printf("\nenter the quntity of pizza=");
+			printf("\n you choiss pasta\n");
+			printf("\nenter the quntity of pasta=");
 			scanf(" %d",&quntity);
 			amount=quntity*150;
 			total_amount=amount;
 			break;
 		case'4':
-			printf("\n you choiss lazaniya");
-			printf("\nenter the quntity of pizza=");
+			printf("\n you choiss lazaniya\n");
+			printf("\nenter the quntity of lazaniya=");
 			scanf(" %d",&quntity);
 			amount=quntity*200;
 			total_amount=amount;
 			break;
 		case'5':
-			printf("\n you choiss cake");
-			printf("\nenter the quntity of pizza=");
+			printf("\n you choiss cake\n");
+			printf("\nenter the quntity of cake=");
 			scanf(" %d",&quntity);
 			amount=quntity*250;
 			total_amount=amount;
@@ -55,7 +55,7 @@ void order(){
 	}
 	printf("\n amount of this item is=%d\n",amount);
 	total_amount = amount+amount;
-	printf("\n total_amount=%d",total_amount);
+	printf("\n total_amount=%d\n",total_amount);
 	
 }
 
@@ -63,7 +63,7 @@ int main(){
 	do{
 		menu();
 		order();
-		printf("\n do you want to place more oder..");
+		printf("\n do you want to place more oder..y or n ....");
 		scanf(" %c",&again);
 	}while(again == 'y'|| again == 'Y');
 	total_amount=amount+amount;
