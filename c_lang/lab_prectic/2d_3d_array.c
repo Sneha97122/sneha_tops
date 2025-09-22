@@ -61,7 +61,7 @@ main(){
 		printf("multiplication of the matrices\n");
 	for(i=0;i<3;i++){
 		for(j=0;j<3;j++){
-			sum3[i][j]=a3[i][j]*b3[i][j];
+			mul[i][j]=a3[i][j]*b3[i][j];
 			printf("%d %d %d\t",i,j,mul[i][j]);
 		}
 		printf("\n");
